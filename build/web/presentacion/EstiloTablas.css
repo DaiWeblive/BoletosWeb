@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15/08/2024, 02:22:30 AM
+    Author     : Sebastian
+*/
+h3{
+    text-align: center;
+    font-family: serif;
+    color: #00b4d8;
+    font-size: 30px;  
+}
+
+#addCatg {
+    background: #00b4d8;
+    border-radius: 8px;
+    color: white;
+}
+
+#regresar{
+     background: #BC4749;
+    border-radius: 8px;
+    color: white;
+}
+
+
+/*css para las tablas general*/
+/* Estilos básicos para la tabla */
+#ejemplo02 {
+    width: 100%;
+    border-collapse: collapse; /* Elimina los espacios entre celdas */
+    font-family: Arial, sans-serif; /* Fuente de la tabla */
+}
+
+/* Estilos para las filas de la cabecera */
+#ejemplo02 th {
+    background-color: #0077b6; /* Color de fondo de la cabecera */
+    color: white; /* Color del texto de la cabecera */
+    padding: 7px; /* Espaciado interno en las celdas de la cabecera */
+    text-align: center; /* Alineación del texto en las celdas de la cabecera */
+}
+
+/* Estilos para las filas de los datos */
+#ejemplo02 td {
+    padding: 8px; /* Espaciado interno en las celdas de los datos */
+    border: 2px solid #0077b6; /* Borde de las celdas */
+}
+
+/* Estilos para las filas de los datos al pasar el cursor */
+#ejemplo02 tr:hover {
+    background-color: #00b4d8; /* Color de fondo al pasar el cursor sobre las filas */
+}
+
+/* Estilos para las filas de los datos en posiciones impares */
+#ejemplo02 tr:nth-child(odd) {
+    background-color: #F2E8CF; /* Color de fondo alternado para filas impares */
+}
+
+/*tabla productos por el color de stock*/
+#ejemplo03 th {
+    background-color: #0077b6; /* Color de fondo de la cabecera */
+    color: white; /* Color del texto de la cabecera */
+    padding: 7px; /* Espaciado interno en las celdas de la cabecera */
+    text-align: center; /* Alineación del texto en las celdas de la cabecera */
+}
+
+/* Estilos para las filas de los datos */
+#ejemplo03 td {
+    padding: 8px; /* Espaciado interno en las celdas de los datos */
+    border: 2px solid #0077b6; /* Borde de las celdas */
+}

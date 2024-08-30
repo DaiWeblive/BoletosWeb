@@ -1,0 +1,93 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15/08/2024, 02:01:11 AM
+    Author     : Sebastian
+*/
+body{
+    background: #90e0ef
+}
+
+#banner{
+    text-align: center;
+    font-family: cursive;
+    color: #0096c7;
+    font-size: 40px;  
+}
+
+#menu {
+    background-color: #0096c7;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#menu ul{
+    list-style-type: none; /* Quita los puntos de la lista */
+    padding-left: 0; 
+    font-size: 18px; /* Cambia el tamaño de la letra */
+    font-family: Arial, sans-serif; /* Cambia el tipo de letra */
+}
+#menu li {
+    padding-left: 15px;
+    opacity: 0; /* Inicialmente, los elementos son invisibles */
+    animation: fadeIn 1s forwards /* Aplica la animación de desvanecimiento */
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Aplicar el retraso en cascada a cada elemento de la lista */
+#menu li:nth-child(1) {
+    animation-delay: 0.5s;
+}
+
+#menu li:nth-child(2) {
+    animation-delay: 1s;
+}
+
+#menu li:nth-child(3) {
+    animation-delay: 1.5s;
+}
+
+#menu li:nth-child(4) {
+    animation-delay: 2s;
+}
+
+#menu li:nth-child(5) {
+    animation-delay: 2.5s;
+}
+#menu a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+#menu a:hover {
+    background-color: #023e8a;
+    color: black;
+}
+
+#contenido {
+    padding: 30px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px
+}
+
+#chartdiv {
+    width: 60%;
+    height: 200px
+}
